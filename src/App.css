@@ -1,3 +1,6 @@
+:root {
+  --main-color: #007bff;
+}
 .sectionTitle {
   color: #007bff;
   font-size: 40px;
@@ -7,4 +10,19 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+}
+.card__title {
+  font-size: 20px;
+  font-weight: normal;
+  letter-spacing: 0.05em;
+}
+.card__text {
+  color: grey;
+  letter-spacing: 0.05em;
+}
+.card__link {
+  color: var(--main-color);
+}
+i {
+  color: var(--main-color);
 }
