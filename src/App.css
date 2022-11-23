@@ -11,6 +11,11 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
 }
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
 .card__title {
   font-size: 20px;
   font-weight: normal;
@@ -25,4 +30,23 @@
 }
 i {
   color: var(--main-color);
+}
+.hero_red {
+  background-color: red;
+}
+.hero_blue {
+  background-color: #3f8ecf;
+}
+.hero {
+  height: 300px;
+  color: white;
+}
+.hero > .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.grid--four {
+  grid-template-columns: repeat(4, 1fr);
 }
